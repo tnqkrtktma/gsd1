@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Solar.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{604AD0EA-1204-4007-B51F-55D260AFACD1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Solar.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SolarEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D52D1CEA-786B-48B4-8082-6E5C7CAE756B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Solar">
+      <UniqueIdentifier>{EEE0B869-55CE-46AD-BCCC-E49A8AFAA761}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Solar\Solar.Build.cs">
+      <Filter>Source\Solar</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Solar\Solar.cpp">
+      <Filter>Source\Solar</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Solar\Solar.h">
+      <Filter>Source\Solar</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Solar\SolarGameModeBase.cpp">
+      <Filter>Source\Solar</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Solar\SolarGameModeBase.h">
+      <Filter>Source\Solar</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Solar\SolarPlayerController.h">
+      <Filter>Source\Solar</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Solar\SolarPlayerController.cpp">
+      <Filter>Source\Solar</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
